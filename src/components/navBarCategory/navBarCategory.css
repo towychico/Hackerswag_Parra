@@ -1,0 +1,20 @@
+.navItemContainer{
+
+    color: #fff;
+    min-width:300px;
+    width:15vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.navItemContainer img{
+    margin: 0 30px;
+    width: 55px;
+    height: 55px;
+}
+.navItemContainer:hover{
+    background: #17181D;
+}

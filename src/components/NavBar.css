@@ -5,4 +5,7 @@
     width:15vw;
     Background: #111217;
     display: flex;
+    flex-direction: column;
+
+
 }

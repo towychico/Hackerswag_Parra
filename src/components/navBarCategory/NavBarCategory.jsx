@@ -1,7 +1,11 @@
 import React from 'react'
-const NavBarCategory = () =>{
+import './navBarCategory.css'
+const NavBarCategory = (props) =>{
     return(
-        <li><a href="#">Inicio</a></li>
+        <div className="navItemContainer">
+            <img src={props.img} alt=""/>
+            <h2>{props.text}</h2>
+        </div>
     )
 }
 export default NavBarCategory;
