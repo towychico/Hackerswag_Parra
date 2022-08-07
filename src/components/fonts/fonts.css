@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AgencyFB';
+    src: local('AgencyFB-Bold'),
+    url('AgencyFB-Bold.woff2') format('woff2'),
+    url('AgencyFB-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.NavBarContentContainer{
+    font-family: 'AgencyFB', serif;
+}

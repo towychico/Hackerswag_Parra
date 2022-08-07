@@ -1,3 +1,5 @@
+
+
 .navItemContainer{
 
     color: #fff;
@@ -8,7 +10,8 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-
+    /*font-family: 'AgencyFB', serif; */
+    font-style: normal;
 }
 .navItemContainer img{
     margin: 0 30px;
