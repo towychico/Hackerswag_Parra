@@ -3,7 +3,7 @@
 .navItemContainer{
 
     color: #fff;
-    min-width:300px;
+    max-width:300px;
     width:15vw;
     height: 100px;
     display: flex;

@@ -2,24 +2,31 @@
 
 .SideNav{
 
-    min-width:300px;
+    max-width:300px;
     min-height:100vh;
     width:15vw;
     Background: #111217;
     display: flex;
     flex-direction: column;
-
+    position:sticky;
+    left: 0;
+    top: 0;
 
 
 }
+.insideNav{
+
+}
 .StoreLogo{
+    /*TODO: fix total lack of responsiveness*/
     min-width:200px;
     min-height:200px;
     height: 200px;
 
 
-    background-image: url(img/HackerSwagIconMEDIUM.png);
+    background-image: url(img/HackerSwagIconMEDIUM.png);/*TODO: changeForActualImage*/
     background-position: center;
     background-size: 90%;
 
 }
+
