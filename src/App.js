@@ -1,7 +1,10 @@
 
 import './App.css';
 import {NavBar} from "./components/NavBar.jsx";
-import CartWidget from "./components/CartWidget/CardWidget";
+import CartWidget from "./components/CartWidget/CartWidget.jsx";
+
+import ItemCounter from "./components/ItemCounter/ItemCounter";
+
 function App() {
   return (
 
@@ -10,25 +13,17 @@ function App() {
 
     <div className="contentsContainer">
       <div className="insideNav">
-      <CartWidget cartValue={20.66}/>
+      <CartWidget cartValue={2000.66}/>
+
 
       </div>
-      <div className="test2"></div>
-      <br/>
-      <div className="test2"></div> <br/>
 
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
-      <div className="test2"></div> <br/>
+      <ItemCounter itemTitle = {"Classic T-shirt"} initial = {1} stock = {4}></ItemCounter>
+      <ItemCounter itemTitle = {"Classic T-shirt"} initial = {1} stock = {4}></ItemCounter>
+
       <div className="test2"></div>
+
+
     </div>
     </div>
   );

@@ -21,3 +21,6 @@
 .navItemContainer:hover{
     background: #17181D;
 }
+.NavBarContentContainer{
+    font-family: 'AgencyFB', sans-serif;
+}
