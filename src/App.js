@@ -5,6 +5,8 @@ import CartWidget from "./components/CartWidget/CartWidget.jsx";
 
 import ItemCounter from "./components/ItemCounter/ItemCounter";
 
+import {getTotal} from "./components/ItemCounter/ItemCounter";
+
 function App() {
   return (
 
@@ -13,13 +15,14 @@ function App() {
 
     <div className="contentsContainer">
       <div className="insideNav">
-      <CartWidget cartValue={2000.66}/>
+
+      <CartWidget cartValue={getTotal}/>
 
 
       </div>
 
-      <ItemCounter itemTitle = {"Classic T-shirt"} initial = {1} stock = {4}></ItemCounter>
-      <ItemCounter itemTitle = {"Classic T-shirt"} initial = {1} stock = {4}></ItemCounter>
+      <ItemCounter itemTitle = {"Classic T-shirt"} itemPrice={12} initial = {1} stock = {4}></ItemCounter>
+      <ItemCounter itemTitle = {"Classic T-shirt"} itemPrice={12} initial = {1} stock = {4}></ItemCounter>
 
       <div className="test2"></div>
 
