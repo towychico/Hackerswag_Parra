@@ -4,29 +4,116 @@
 
     max-width:300px;
     min-height:100vh;
-    width:15vw;
+    width:100%;
     Background: #111217;
     display: flex;
     flex-direction: column;
+    align-items: center;
     position:sticky;
     left: 0;
     top: 0;
 
+
+
+
+}
+.NavBarContentContainer{
+    max-width:inherit;
+
+    width: 100%;
 
 }
 .insideNav{
 
 }
 .StoreLogo{
-    /*TODO: fix total lack of responsiveness*/
-    min-width:200px;
-    min-height:200px;
-    height: 200px;
+
+    max-width:250px;
+    max-height:250px;
+     width: 100%;
+    height: 100%;
 
 
     background-image: url(img/HackerSwagIconMEDIUM.png);/*TODO: changeForActualImage*/
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 90%;
 
 }
 
+
+@media only screen and (min-width: 1080px){
+
+    .SideNav{
+
+        display:inherit;
+    }
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+    /* For mobile phones: */
+    .SideNav{
+        position: absolute;
+        z-index:5;
+        Background: rgba(17, 18, 23, 0.92);
+        max-width:100vw;
+        max-height: 100vh;
+        width: 100%;
+        height:100%;
+        justify-content:center;
+        align-items: center;
+        display:none;
+    }
+    .StoreLogo{
+        max-width:450px;
+        max-height:450px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navItemContainer{
+
+
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media only screen and (max-height: 1080px) {
+    /* For mobile phones: */
+    .StoreLogo{
+        max-width:300px;
+        max-height:300px;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-height: 800px) {
+    /* For mobile phones: */
+    .StoreLogo{
+        max-width:350px;
+        max-height:350px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+}
+@media only screen and (max-height: 400px) {
+    /* For mobile phones: */
+    .StoreLogo{
+        max-width:150px;
+        max-height:250px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+}

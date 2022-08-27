@@ -8,7 +8,7 @@ import  bagIcon from '../img/icons/bag.png'
 const CartWidget = (props) => {
     const [cartValue, UpdateCartValue] = useState(0);
     return(
-        <div className="cartWidgetContainer">
+        <div  className="cartWidgetContainer">
             <p id="cartTotalId">${cartValue}</p>
             <img src={bagIcon} alt=""/>
             <img src={userIcon} alt=""/>
@@ -19,4 +19,6 @@ const CartWidget = (props) => {
 
 
 export default CartWidget;
-
+export const test1 = () => {
+  return "sjkhfkjfs"
+}
