@@ -5,8 +5,9 @@ import CartWidget from "./components/CartWidget/CartWidget.jsx";
 import NavBarMenu from "./components/NavBarMenu";
 import {test1} from "./components/CartWidget/CartWidget.jsx";
 import ItemCounter from "./components/ItemCounter/ItemCounter";
-
+import swiper from "./components/Swiper/Swiper";
 import {getTotal} from "./components/ItemCounter/ItemCounter";
+import SwiperSlider from "./components/Swiper/Swiper";
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
 
       <CartWidget cartValue={getTotal}/></div>
 
-
+      <SwiperSlider></SwiperSlider>
 
       <div className="test2"></div>
       <div className="test2"></div>
