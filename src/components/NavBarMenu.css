@@ -32,7 +32,7 @@
     position: fixed;
     border-radius: 20px;
     right:0;
-    margin: 20px   0 0 45px;
+    margin: 20px   45px 0 0;
     z-index: 9;
     display:none;
 }
@@ -53,6 +53,20 @@
 @media only screen and (max-width: 1080px) {
     .navMenu{
         display:inherit;
+        max-width: 9vh;
+        max-height:9vh;
+    }
+
+
+}@media only screen and (max-width: 800px) {
+    .navMenu{
+        display:inherit;
+        max-width: 7vh;
+        max-height:7vh;
+    }
+    .arrowContainer{
+        max-width: 7vh;
+        max-height:7vh;
     }
 
 

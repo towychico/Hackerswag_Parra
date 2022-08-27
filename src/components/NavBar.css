@@ -80,6 +80,23 @@
         align-items: center;
 
     }
+}@media  screen and (max-width: 800px) {
+    /* For mobile phones: */
+
+    .StoreLogo{
+        max-width:500px;
+        max-height:40px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navItemContainer{
+
+
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 @media only screen and (max-height: 1080px) {

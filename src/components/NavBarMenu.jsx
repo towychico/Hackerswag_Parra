@@ -5,6 +5,10 @@ const NavBarMenu = (props) =>{
         <>
         <div onClick = {()=>{
             document.getElementById("navBar").style.display="flex";
+            document.getElementById("navBar").style.justifyContent = "center";
+            document.getElementById("navBar").style.alignItems = "center";
+
+
             document.getElementById("arrowBackMenu").style.display="flex";
         }} className="navMenu">
             <div className="logo"></div>
